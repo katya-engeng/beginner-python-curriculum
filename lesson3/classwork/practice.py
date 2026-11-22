@@ -1,13 +1,23 @@
 # Problem 1
 # Ask the user to enter their height in centimeters.
 # Print "Tall" if the height is greater than 170, otherwise print "Short".
+height = int(input("how tall are you?  (centimeters)"))
 
+if height > 170:
+    print("tall")
+else:
+    print("short")
 
 
 # Problem 2
 # Ask the user for their age.
 # If they are 18 or older, print "Adult", else print "Minor".
+age = int(input("how oid are you?"))
 
+if age > 18:
+    print("adult")
+else:
+    print("minor")
 
 
 # Problem 3
@@ -15,6 +25,16 @@
 # Print "Fizz" if it is divisible by 3, "Buzz" if divisible by 5,
 # print "FizzBuzz" if divisible by both 3 and 5,
 # otherwise print the number itself.
+number = int(input("Enter a number"))
+
+if number//3 == 0 and number // 5 == 0:
+    print("FuzzBuzz")
+elif number//3 == 0:
+    print("Fuzz")
+elif number // 5 == 0:
+    print("Buzz")
+else:
+    print(number)
 
 
 

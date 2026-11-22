@@ -1,0 +1,17 @@
+print (5 > 3)
+print (5 < 3 )
+print (5>= 5)
+print (4 <= 5)
+print (5 ==5)
+print (5 != 3)
+a = 10 
+b = 11
+print (a> b)
+print (b == a)
+print("=========================")
+#x = int(input("Enter a number: "))
+#y = int(input("Enter another number: "))
+#print (x > y )
+print ("apple"== "apple")
+print ("appel" != "banana")
+print ("Apple" == "apple")
